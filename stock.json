@@ -1,0 +1,6 @@
+[
+    { "img": "img/6800.jpg" ,"id":1, "nombre":"RX 6800", "precio": 250000, "cantidad":1 },
+    { "img": "img/6900.jpg" ,"id":2, "nombre":"RX6900XT", "precio": 290000, "cantidad":1},
+    { "img": "img/3080ti.jpeg" ,"id":3, "nombre":"RTX3080TI", "precio": 310000, "cantidad":1},
+    { "img": "img/3090.jpg" , "id":4, "nombre": "RTX3090", "precio": 350000, "cantidad":1}
+]

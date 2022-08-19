@@ -1,0 +1,156 @@
+body{
+    background-color: grey
+}
+
+h1{
+    display: flex;
+    margin: auto; 
+    justify-content: center;
+    padding-top: 10%;
+}
+
+
+.row{
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+}
+
+.buttonNew{   
+    display: flex;    
+    margin: auto;
+    background-color: white;
+    margin-bottom: 10%;
+
+}
+
+.alert{
+    display: flex;
+    justify-content: center;
+    font-weight: 1000;
+    
+}
+
+
+.btn-gral {
+    display: flex;
+    margin: auto;
+    padding: 1%;
+    margin-bottom: 3%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    border-radius: 10px;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    border: 1px solid black;
+    outline: none;
+    margin-top: 3%;
+}
+
+.btn-gral:hover {
+    transform: scale(1.1);
+}
+
+.carrito {
+    width: 100%;
+    background-color: royalblue;
+    font-family: "Roboto", sans-serif;
+}
+
+.logoCarrito {
+    position: fixed;
+    right: 5%;
+    bottom: 7%;
+}
+
+.logoCarrito img {
+    height: 45px;
+    transition: 500ms ease-in-out;
+}
+
+
+#imgCarrito {
+    border-radius: 50%;
+    border: 1px solid black;
+}
+#imgCarrito1 {
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.logoCarrito img:hover {
+    transform: scale(1.1);
+}
+
+.modal-container-carrito {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease-in;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+#modal-carrito {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 8%;
+    background-color: white;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.modal-content {
+    height: 89%;
+}
+.modal-active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.imgCompraFin {
+    margin: auto;
+}
+
+.modal-backdrop {
+    position: relative !important;
+}
+
+#btn-finCompra {
+    background-color: #2ca02c;
+    color: white;
+}
+
+.table-fondo {
+    background-color: orangered;
+}
+
+.precioFinal {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+input {
+    box-shadow: none !important;
+    border-color: black !important;
+}
+
+
+textarea{
+    box-shadow: none !important;
+    border-color: black !important;
+}
