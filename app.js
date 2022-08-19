@@ -39,7 +39,7 @@ buttonForm.addEventListener("click", () => {
 let stock = [];
 
 
-fetch ('/stock.json')
+fetch ('https://manuregatuzo.github.io/ProyectoFinalRegatuzo/stock.json')
 .then((response) => response.json())
 .then((data) =>  {
   data.forEach((productos) =>{    
